@@ -1,0 +1,127 @@
+.top {
+  width: 100%;
+  height: 45px;
+  background-color: #249D64;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.top img {
+  width: 13px;
+}
+.top span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+}
+.top span i {
+  width: 4px;
+  height: 4px;
+  margin-right: 3px;
+  display: block;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.top span i:nth-child(2) {
+  width: 7px;
+  height: 7px;
+}
+.card1,
+.card2 {
+  width: 94%;
+  margin-top: 50px;
+  margin-left: 3%;
+  border-radius: 15px;
+  box-shadow: 1px 2px 3px 1px #ccc;
+}
+.card1 h1,
+.card2 h1 {
+  color: #555;
+  margin-left: 10px;
+}
+.card1 p,
+.card2 p {
+  width: 100%;
+  height: 1px;
+  background-color: #777;
+  margin-bottom: 10px;
+}
+.card1 .cards,
+.card2 .cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card1 .cards img,
+.card2 .cards img {
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  border: 1px solid #666;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.card1 .cards h2,
+.card2 .cards h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.card1 .cards h3,
+.card2 .cards h3 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.card2 h3 {
+  color: #555;
+  margin-left: 10px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.card2 img {
+  width: 20px;
+}
+.card2 .call {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  color: #249D64;
+}
+.somlike {
+  text-align: center;
+  color: #11995a;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.like {
+  display: flex;
+  justify-content: space-around;
+}
+.like img {
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  border: 1px solid #666;
+}
+.like .item {
+  width: 38%;
+  border-radius: 15px;
+  box-shadow: 1px 2px 2px 1px #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 15px 0;
+}
+.like .item h1 {
+  font-size: 16px;
+  color: #aa7f3f;
+  margin: 10px 0;
+}
+.like .item h2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #aa7f3f;
+}

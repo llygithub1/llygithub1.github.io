@@ -1,0 +1,52 @@
+.tops {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+.tops h1 {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.tops i {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #ccc;
+  color: #666;
+  margin-left: 15px;
+  text-align: center;
+  line-height: 25px;
+}
+.tops img {
+  width: 100%;
+}
+.banner {
+  width: 100%;
+  height: 500px;
+  background-color: #f7f7f7;
+  padding-left: 5px;
+  padding-top: 30px;
+}
+.banner h1,
+.banner h4 {
+  color: #6b5d5d;
+}
+.banner h2 {
+  font-size: 18px;
+}
+.banner h3 {
+  font-size: 12pz;
+  margin-top: 15px;
+}
+.banner h4 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.banner .bannerimg {
+  width: 100%;
+  overflow: scroll;
+}
+.banner .bannerimg img {
+  width: 120%;
+}

@@ -1,0 +1,91 @@
+body {
+  background-color: #f7f7f7;
+}
+.top {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+.top img {
+  width: 20px;
+}
+.top span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner .red {
+  color: red;
+}
+.banner .box {
+  width: 80%;
+  padding: 15px;
+  background-color: #D8DFD7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 13px;
+}
+.banner .box img {
+  width: 85px;
+  height: 85px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+.banner .box .box-text {
+  width: 80%;
+}
+.banner .box .box-text p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.banner .box .box-text input {
+  width: 30px;
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #8c918c;
+}
+.banner .box .box-text select {
+  margin: 10px 0;
+  border: 0;
+  color: #666;
+  border-radius: 4px;
+  background-color: #8c918c;
+}
+.pay {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  position: fixed;
+  bottom: 40px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pay .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.pay .left p {
+  margin: 0 8px;
+}
+.pay button {
+  width: 80px;
+  height: 25px;
+  border-radius: 12px;
+  background-color: #fdba56;
+}

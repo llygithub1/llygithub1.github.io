@@ -1,0 +1,78 @@
+.top {
+  width: 100%;
+  height: 210px;
+  background: url(../img/10.jpeg) no-repeat;
+  background-size: 100% 100%;
+}
+.top h1 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  line-height: 190px;
+}
+.banner {
+  width: 100%;
+}
+.banner .box1 {
+  width: 60%;
+  height: 38px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #A6795E;
+  margin: 60px auto;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+}
+.detail {
+  display: flex;
+  justify-content: space-between;
+}
+.detail .item {
+  width: 30%;
+}
+.detail .item .item-p {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 8px;
+  color: #239d64;
+  font-weight: 600;
+}
+.detail .item .item-box {
+  height: 310px;
+  border: 1px solid #666;
+}
+.detail .item .item-box .tops {
+  padding: 15px 0 10px 0;
+  background-color: #239d64;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #666;
+}
+.detail .item .item-box .tops h1 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.detail .item .item-box .tops h5 {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 6px;
+}
+.detail .item .item-box .bottom {
+  padding: 10px 4px 30px 4px;
+}
+.detail .item .item-box .bottom p {
+  font-size: 12px;
+}
+.add {
+  width: 100%;
+  height: 27px;
+  text-align: center;
+}
+.add button {
+  width: 90px;
+  margin-top: 15px;
+  border: 2px solid #239d64;
+  border-radius: 12px;
+}

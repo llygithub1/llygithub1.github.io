@@ -1,0 +1,131 @@
+.top {
+  width: 100%;
+}
+.top .head {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: url(../img/8.jpg) no-repeat;
+  background-size: 100% 100%;
+  border-radius: 0 0 20% 20%;
+  margin: 0 auto;
+}
+.top .head .heads {
+  width: 100%;
+  height: 250px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.top .head .heads div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 60px;
+  color: #fff;
+}
+.top .head .heads div h5 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.top .head .heads div h4 {
+  font-weight: 400;
+  font-size: 12px;
+}
+.top .head .heads div img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+.top .swiper {
+  position: relative;
+  overflow: hidden;
+  top: -30px;
+}
+.top .swiper .swiper-one {
+  position: absolute;
+  top: 10px;
+  left: -220px;
+  width: 250px;
+  height: 180px;
+  border-radius: 10px;
+}
+.top .swiper .swiper-two {
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+.top .swiper .swiper-two img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+.top .swiper .swiper-three {
+  position: absolute;
+  top: 10px;
+  right: -220px;
+  width: 250px;
+  height: 180px;
+  border-radius: 10px;
+}
+.banner {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.banner .banner-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner .banner-item img {
+  background-color: #616060;
+  width: 50px;
+  padding: 5px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+.banner .banner-item h5 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.addMe {
+  width: 100%;
+  padding: 10px 20px 80px 20px;
+  position: relative;
+  text-align: center;
+}
+.addMe img {
+  width: 100%;
+  height: 200px;
+  border-radius: 14px;
+  z-index: -10;
+}
+.addMe .logos {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 220px;
+  height: 150px;
+  display: inline-block;
+  z-index: 100;
+}
+.addMe .logos img {
+  width: 220px;
+  height: 150px;
+}
+.addMe .add {
+  position: absolute;
+  top: 20px;
+  left: 40%;
+}
+.addMe .add h1 {
+  font-size: 16px;
+  color: #fff;
+}
+.addMe .add h2 {
+  font-size: 12px;
+  color: #03503C;
+}
