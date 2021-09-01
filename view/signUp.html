@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/navBar.css">
+    <link rel="stylesheet" href="../css/signIn.css">
+    <title>signUp</title>
+</head>
+
+<body>
+    <div id="vm">
+        <div class="title">
+            <h1>星享俱乐部 | 星巴</h1>
+            <h2>登录或创建一个新账户</h2>
+            <ul v-show="isShow">
+                <a href="./signIn.html">
+                    <li style="color: #666; font-weight: 400;border-bottom:0;">登录</li>
+                </a>
+                <li style="color: #000; font-weight: 600;border-bottom: 3px solid rgb(45, 175, 110);">注册</li>
+            </ul>
+        </div>
+        <div class="banner2" v-show="isShow">
+            <p>使用星巴克App进行注册</h1>
+            <h2>现在就下载<span>星巴克App</span>便可以使用手机进行注册、支付、查看消费记录及管理卡片。</h2>
+            <img src="../img/iphone.png" alt="">
+            <img class="buttons" src="../font/udp-starbucks-cn.png" alt="">
+        </div>
+        <div class="navBar">
+            <div>
+                <a href="../index.html"><img src="../font/主页.jpg" alt=""></a>
+                <a href="./菜单.html"><img src="../font/菜单.png" alt=""></a>
+                <a href="./mine.html"><img src="../font/我的.png" alt=""></a>
+                <a href="./门店.html"><img src="../font/门店.png" alt=""></a>
+                <a href="./help.html"><img src="../font/更多.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

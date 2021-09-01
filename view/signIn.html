@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="../css/navBar.css">
+    <link rel="stylesheet" href="../css/signIn.css">
+    <script src="../js/vue.js"></script>
+</head>
+
+<body>
+    <div id="vm">
+        <div class="title">
+            <h1>星享俱乐部 | 星巴</h1>
+            <h2>登录或创建一个新账户</h2>
+            <ul v-show="isShow">
+                <li class="login">登录</li>
+                <a href="./signUp.html">
+                    <li>注册</li>
+                </a>
+                <li>关于星享俱乐部</li>
+            </ul>
+        </div>
+        <div class="banner" v-show="isShow">
+            <div class="input1">
+                <input type="text" placeholder="用户名或者电子邮箱">
+                <img src="../font/erweima.jpg" @click='isShow=!isShow' v-show="isShow">
+            </div>
+            <div class="input2">
+                <input type="password" placeholder="密码">
+                <img src="../font/影藏.png" alt="">
+            </div>
+            <div class="input3">
+                <div>
+                    <input type="checkbox"><span>下次自动登录</span>
+                </div>
+                <span style="color: rgb(35, 134, 85);font-weight: 600;">忘记密码？</span>
+            </div>
+            <div class="yanzheng">
+                <img src="../img/yanzheng.png" alt="">
+            </div>
+        </div>
+        <div class="banner1" v-show="!isShow">
+            <p>打开<span style="color: rgb(7, 202, 105);">星巴克App</span>,在“我”页面右上角点开扫描二维码图标</p>
+            <img class="banner1-img" src="../font/5.jpg" @click="isShow=true">
+            <img class="banner1-imgs" src="../font/3 (1).jpg" alt="">
+        </div>
+        <div class="navBar">
+            <div>
+                <a href="../index.html"><img src="../font/主页.jpg" alt=""></a>
+                <a href="./菜单.html"><img src="../font/菜单.png" alt=""></a>
+                <a href="./mine.html"><img src="../font/我的.png" alt=""></a>
+                <a href="./门店.html"><img src="../font/门店.png" alt=""></a>
+                <a href="./help.html"><img src="../font/更多.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    new Vue({
+        el: '#vm',
+        data: {
+            type: ['text', 'password'],
+            isShow: true,
+        },
+        methods: {
+
+        }
+    })
+</script>
+
+</html>
